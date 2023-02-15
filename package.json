@@ -1,8 +1,8 @@
 {
-  "name": "standardnotes-theme-interstellar,
+  "name": "standardnotes-theme-interstellar",
   "version": "0.1.0",
   "main": "dist/dist.css",
-  "sn: {
+  "sn": {
     "main": "dist/dist.css"
   },
   "repository": {
