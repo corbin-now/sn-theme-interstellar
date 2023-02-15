@@ -3,12 +3,12 @@
 
 :root {
   /* Background & Text */
-  --background-dark: #101010;
-  --background-medium: #1a1a1a;
-  --background-light: #202020;
-  --foreground-dark: #90a3a7;
-  --foreground-medium: #878a8d;
-  --foreground-light: #c4d7d9;
+  --background-dark: #101010ff;
+  --background-medium: #1a1a1aff;
+  --background-light: #202020ff;
+  --foreground-dark: #90a3a7ff;
+  --foreground-medium: #878a8dff;
+  --foreground-light: #c4d7d9ff;
 
   /* Light Colours */
   --tomato: #ff5747ff;
@@ -79,7 +79,7 @@
   --sn-desktop-titlebar-border-color: var(--border-color);
   --sn-desktop-titlebar-ui-color: var(--foreground-medium);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
-  --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
+  --sn-stylekit-monospace-font: 'Roboto Mono', monospace;
   --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
   --sn-stylekit-editor-font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
 }
