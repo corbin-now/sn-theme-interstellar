@@ -1,1 +1,85 @@
+/* Fonts */
+@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono&display=swap');
 
+:root {
+  /* Background & Text */
+  --background-dark: #101010;
+  --background-medium: #1a1a1a;
+  --background-light: #202020;
+  --foreground-dark: #90a3a7;
+  --foreground-medium: #878a8d;
+  --foreground-light: #c4d7d9;
+
+  /* Light Colours */
+  --tomato: #ff5747ff;
+  --sandy-brown: #ffa45fff;
+  --icterine: #f3ed41ff;
+  --light-green: #6feb84ff;
+  --vivid-sky-blue: #00dcf5ff;
+  --picton-blue: #16a7f5ff;
+  --tropical-indigo: #9f76ffff;
+  --heliotrope: #de82ffff;
+  --persian-pink: #ff8cc4ff;
+  --ash-gray: #a3b7b8ff;
+
+  /* Dark Colours */
+  --chili-red: #e01300ff;
+  --pumpkin: #ff740aff;
+  --aureolin: #e6df0fff;
+  --malachite: #1dd73cff;
+  --moonstone: #00a5b8ff;
+  --blue-ncs: #0882c4ff;
+  --majorelle-blue: #7e47ffff;
+  --phlox: #ce47ffff;
+  --rose-bonbon: #ff47a0ff;
+  --paynes-gray: #597273ff;
+
+  /* Colours */
+  --highlight-color: var(--vivid-sky-blue);
+  --success-color: var(--light-green);
+  --warning-color: var(--icterine);
+  --danger-color: var(--tomato);
+  --neutral-color: var(--paynes-gray);
+  --border-color: var(--background-dark);
+
+  --footer-bar-border-top-color: 0;
+  --sn-stylekit-info-color: var(--moonstone);
+  --sn-stylekit-info-contrast-color: var(--foreground-medium);
+  --sn-stylekit-neutral-color: var(--neutral-color);
+  --sn-stylekit-neutral-contrast-color: var(--background-medium);
+  --sn-stylekit-success-color: var(--success-color);
+  --sn-stylekit-success-contrast-color: var(--background-medium);
+  --sn-stylekit-warning-color: var(--warning-color);
+  --sn-stylekit-warning-contrast-color: var(--background-medium);
+  --sn-stylekit-danger-color: var(--danger-color);
+  --sn-stylekit-danger-contrast-color: var(--background-medium);
+  --sn-stylekit-shadow-color: var(--background-dark);
+
+  --sn-stylekit-background-color: var(--background-dark);
+  --sn-stylekit-foreground-color: var(--foreground-medium);
+  --sn-stylekit-border-color: var(--border-color);
+  --sn-stylekit-paragraph-text-color: var(--foreground-dark);
+  --sn-stylekit-contrast-background-color: var(--background-light);
+  --sn-stylekit-contrast-foreground-color: var(--foreground-light);
+  --sn-stylekit-contrast-border-color: var(--border-color);
+  --sn-stylekit-secondary-background-color: var(--background-medium);
+  --sn-stylekit-secondary-foreground-color: var(--foreground-light);
+  --sn-stylekit-secondary-border-color: var(--border-color);
+  --sn-stylekit-secondary-contrast-background-color: var(--background-light);
+  --sn-stylekit-secondary-contrast-foreground-color: var(--foreground-light);
+  --sn-stylekit-secondary-contrast-border-color: var(--border-color);
+
+  --sn-stylekit-editor-background-color: var(--background-dark);
+  --sn-stylekit-editor-foreground-color: var(--foreground-medium);
+  --sn-stylekit-input-placeholder-color: var(--foreground-light);
+  --sn-stylekit-input-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-track-border-color: var(--border-color);
+  --sn-stylekit-scrollbar-thumb-color: var(--sn-stylekit-info-color);
+  --sn-desktop-titlebar-bg-color: var(--background-medium);
+  --sn-desktop-titlebar-border-color: var(--border-color);
+  --sn-desktop-titlebar-ui-color: var(--foreground-medium);
+  --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
+  --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
+  --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+}
