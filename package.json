@@ -1,12 +1,12 @@
 {
   "name": "sn-theme-interstellar",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "dist/dist.css",
   "sn": {
     "main": "dist/dist.css"
   },
   "repository": {
     "type": "git",
-    "url": "https://corbin-now.github.io/sn-theme-interstellar"
+    "url": "git://github.com/corbin-now/sn-theme-interstellar.git"
   }
 }
