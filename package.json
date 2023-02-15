@@ -1,6 +1,6 @@
 {
   "name": "sn-theme-interstellar",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "main": "dist/dist.css",
   "sn": {
     "main": "dist/dist.css"
