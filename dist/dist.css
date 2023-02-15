@@ -82,4 +82,39 @@
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   --sn-stylekit-monospace-font: 'Martian Mono', 'Roboto Mono', monospace;
   --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  --sn-stylekit-editor-font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
 }
+
+/* Rich Editor */
+/* Headings */
+.CodeMirror .cm-header-1, .gKsMQS h1 span {
+  color: #00ddf1;
+  font-size: 36px;
+  font-weight: 700;
+}
+.CodeMirror .cm-header-2, .gKsMQS h2 span {
+  color: #00c18f;
+  font-size: 32px;
+  font-weight: 700;
+}
+.CodeMirror .cm-header-3, .gKsMQS h3 span {
+  color: #dfdd6c;
+  font-size: 27px;
+  font-weight: 600;
+}
+.CodeMirror .cm-header-4, .gKsMQS h4 span {
+  font-size: 22px;
+  color: #e7657a;
+  font-weight: 600;
+}
+
+/* Body */
+.CodeMirror, .CodeMirror-fullscreen, .gKsMQS, .gKsMQS p, .CodeMirror pre.CodeMirror-line, .CodeMirror pre.CodeMirror-line-like  {
+  font-family: var(--sn-stylekit-editor-font-family);
+  line-height: 27px;
+  font-feature-settings: "liga" 0, "calt" 0;
+  letter-spacing: 0px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
