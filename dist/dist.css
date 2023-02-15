@@ -1,4 +1,3 @@
-/* Fonts */
 @import url('https://rsms.me/inter/inter.css');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
@@ -118,3 +117,6 @@
   font-size: 18px;
 }
 
+html body {
+  font-family: "Inter","Roboto",sans-serif;
+}
