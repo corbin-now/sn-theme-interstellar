@@ -3,9 +3,9 @@
 
 :root {
   /* Background & Text */
-  --background-dark: #101010ff;
-  --background-medium: #1a1a1aff;
-  --background-light: #202020ff;
+  --background-dark: #1c1c1cff;
+  --background-medium: #212121ff;
+  --background-light: #282828ff;
   --foreground-dark: #90a3a7ff;
   --foreground-medium: #878a8dff;
   --foreground-light: #c4d7d9ff;
@@ -21,6 +21,7 @@
   --heliotrope: #de82ffff;
   --persian-pink: #ff8cc4ff;
   --ash-gray: #a3b7b8ff;
+  --white: #ffffffff;
 
   /* Dark Colours */
   --chili-red: #e01300ff;
@@ -44,7 +45,7 @@
 
   --footer-bar-border-top-color: 0;
   --sn-stylekit-info-color: var(--moonstone);
-  --sn-stylekit-info-contrast-color: var(--foreground-medium);
+  --sn-stylekit-info-contrast-color: var(--white);
   --sn-stylekit-neutral-color: var(--neutral-color);
   --sn-stylekit-neutral-contrast-color: var(--background-medium);
   --sn-stylekit-success-color: var(--success-color);
@@ -84,26 +85,31 @@
   --sn-stylekit-editor-font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
 }
 
+/* Global font change */
+html body {
+  font-family: "Inter","Roboto",sans-serif;
+}
+
 /* Rich Editor */
 /* Headings */
 .CodeMirror .cm-header-1, .gKsMQS h1 span {
-  color: #00ddf1;
+  color: var(--picton-blue);
   font-size: 36px;
   font-weight: 700;
 }
 .CodeMirror .cm-header-2, .gKsMQS h2 span {
-  color: #00c18f;
+  color: var(--tropical-indigo);
   font-size: 32px;
   font-weight: 700;
 }
 .CodeMirror .cm-header-3, .gKsMQS h3 span {
-  color: #dfdd6c;
+  color: var(--heliotrope);
   font-size: 27px;
   font-weight: 600;
 }
 .CodeMirror .cm-header-4, .gKsMQS h4 span {
+  color: var(--persian-pink);
   font-size: 22px;
-  color: #e7657a;
   font-weight: 600;
 }
 
@@ -117,6 +123,16 @@
   font-size: 18px;
 }
 
-html body {
-  font-family: "Inter","Roboto",sans-serif;
+/* Checkboxes */
+.jrQhgG ul.checkbox_list li input {
+  margin: 0.0em 0.5em 0px 0px;
+}
+
+/* Content Tags */
+.editor-tags {
+  opacity: 0
+}
+
+.editor-tags:hover {
+  opacity: 1;
 }
