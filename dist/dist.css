@@ -6,9 +6,9 @@
   --background-dark: #1c1c1cff;
   --background-medium: #212121ff;
   --background-light: #282828ff;
-  --background-dark: #a8aeafff;
-  --background-medium: #c2c3c4ff;
-  --background-light: #e5e6e6ff;
+  --foreground-dark: #a8aeafff;
+  --foreground-medium: #c2c3c4ff;
+  --foreground-light: #e5e6e6ff;
 
   /* Light Colours */
   --tomato: #ff5747ff;
@@ -133,6 +133,15 @@ html body {
   opacity: 0
 }
 
+.gKsMQS h1:not(.placeholder)::before, 
+.gKsMQS h2:not(.placeholder)::before, 
+.gKsMQS h3:not(.placeholder)::before, 
+.gKsMQS h4:not(.placeholder)::before, 
+.gKsMQS h5:not(.placeholder)::before, 
+.gKsMQS h6:not(.placeholder)::before {
+  display: none;
+}
+
 .editor-toolbar,
 .editor-toolbar.fullscreen {
   height: 1px;
@@ -148,3 +157,14 @@ html body {
 .editor-tags:hover {
   opacity: 1;
 }
+
+.editor-toolbar button {
+  color: var(--neutral-color) !important;
+}
+
+#editor-title-bar #save-status {
+  top: 50px;
+  display: none;
+}
+
+
