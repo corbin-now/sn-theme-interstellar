@@ -6,9 +6,9 @@
   --background-dark: #1c1c1cff;
   --background-medium: #212121ff;
   --background-light: #282828ff;
-  --foreground-dark: #90a3a7ff;
-  --foreground-medium: #878a8dff;
-  --foreground-light: #c4d7d9ff;
+  --background-dark: #a8aeafff;
+  --background-medium: #c2c3c4ff;
+  --background-light: #e5e6e6ff;
 
   /* Light Colours */
   --tomato: #ff5747ff;
@@ -131,6 +131,18 @@ html body {
 /* Content Tags */
 .editor-tags {
   opacity: 0
+}
+
+.editor-toolbar,
+.editor-toolbar.fullscreen {
+  height: 1px;
+  opacity: 0;
+  padding-top: 0;
+}
+
+.editor-toolbar:hover {
+  height: 50px;
+  opacity: 1;
 }
 
 .editor-tags:hover {
