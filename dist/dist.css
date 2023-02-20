@@ -119,8 +119,13 @@ html body {
   line-height: 27px;
   font-feature-settings: "liga" 0, "calt" 0;
   letter-spacing: 0px;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 18px;
+}
+
+/* Bold */
+.jrQhgG b, .jrQhgG strong {
+    font-weight: 700;
 }
 
 /* Checkboxes */
