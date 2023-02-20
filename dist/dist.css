@@ -59,7 +59,7 @@
   --sn-stylekit-background-color: var(--background-dark);
   --sn-stylekit-foreground-color: var(--foreground-medium);
   --sn-stylekit-border-color: var(--border-color);
-  --sn-stylekit-paragraph-text-color: var(--foreground-dark);
+  --sn-stylekit-paragraph-text-color: var(--foreground-light);
   --sn-stylekit-contrast-background-color: var(--background-light);
   --sn-stylekit-contrast-foreground-color: var(--foreground-light);
   --sn-stylekit-contrast-border-color: var(--border-color);
