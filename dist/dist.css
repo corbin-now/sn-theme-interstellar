@@ -1,4 +1,4 @@
-@import url('https://rsms.me/inter/inter.css');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@400;500;700&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 :root {
@@ -81,13 +81,13 @@
   --sn-desktop-titlebar-ui-color: var(--foreground-medium);
   --sn-desktop-titlebar-ui-hover-color: var(--highlight-color);
   --sn-stylekit-monospace-font: 'Roboto Mono', monospace;
-  --sn-stylekit-sans-serif-font: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
-  --sn-stylekit-editor-font-family: 'Inter', 'Segoe UI', 'Roboto', sans-serif;
+  --sn-stylekit-sans-serif-font: 'Lexend', 'Segoe UI', 'Roboto', sans-serif;
+  --sn-stylekit-editor-font-family: 'Lexend', 'Segoe UI', 'Roboto', sans-serif;
 }
 
 /* Global font change */
 html body {
-  font-family: "Inter","Roboto",sans-serif;
+  font-family: "Lexend","Roboto",sans-serif;
 }
 
 /* Rich Editor */
